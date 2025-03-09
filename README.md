@@ -10,8 +10,8 @@
     </header>
     <section>
         <div class="container">
-            <h1>Halo, Saya [Nama Kamu]</h1>
-            <p>Saya adalah seorang developer yang memiliki minat dalam [bidang kamu].</p>
+            <h1>Halo, Saya Muhammad Syahid Islamy</h1>
+            <p>Saya adalah seorang developer yang memiliki minat dalam java, blockchain dan machine learning.</p>
             <a href="#projects" class="btn">Lihat Proyek</a>
             <a href="#contact" class="btn">Hubungi Saya</a>
         </div>
