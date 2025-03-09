@@ -45,6 +45,21 @@
             bottom: 0;
             width: 100%;
         }
+        .project-grid {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .project {
+            text-align: center;
+            max-width: 250px;
+        }
+        .project img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
     </style>
 </head>
 <body>
@@ -54,35 +69,43 @@
     
     <section>
         <div class="container">
-            <h1>Halo, Saya [Nama Kamu]</h1>
-            <p>Saya adalah seorang developer yang memiliki minat dalam [bidang kamu].</p>
+            <h1>Halo, Saya Muhammad Syahid Islamy</h1>
+            <p>Saya adalah siswa SMK Telkom Jakarta jurusan RPL angkatan 32.</p>
+            <br>
+            <p>Saat ini saya sedang mendalami bahasa pemrograman Java, Blockchain, Html, PHP, SQL dan CSS</p>
             <a href="#projects" class="btn">Lihat Proyek</a>
             <a href="#contact" class="btn">Hubungi Saya</a>
         </div>
     </section>
-    
     <section id="projects">
-        <div class="container">
-            <h2>Proyek Saya</h2>
-            <p>Berikut adalah beberapa proyek yang telah saya kerjakan.</p>
-            <ul>
-                <li>Proyek 1 - Deskripsi singkat</li>
-                <li>Proyek 2 - Deskripsi singkat</li>
-                <li>Proyek 3 - Deskripsi singkat</li>
-            </ul>
+    <div class="container">
+        <h2>Proyek Saya</h2>
+        <div class="project-grid">
+            <div class="project">
+                <img src="gambar1.jpg" alt="Proyek 1">
+                <p>Proyek 1 - Deskripsi singkat</p>
+            </div>
+            <div class="project">
+                <img src="gambar2.jpg" alt="Proyek 2">
+                <p>Proyek 2 - Deskripsi singkat</p>
+            </div>
+            <div class="project">
+                <img src="gambar3.jpg" alt="Proyek 3">
+                <p>Proyek 3 - Deskripsi singkat</p>
+            </div>
         </div>
-    </section>
-    
+    </div>
+</section>
     <section id="contact">
         <div class="container">
             <h2>Kontak Saya</h2>
-            <p>Email: example@email.com</p>
-            <p>GitHub: <a href="https://github.com/username">github.com/username</a></p>
+            <p>Email: sayberlord16.com</p>
+            <p>Telp : 081400603688</a></p>
         </div>
     </section>
     
     <footer>
-        &copy; 2025 Portofolio Saya
+        &copy; Portofolio Muhammad Syahid
     </footer>
 </body>
 </html>
